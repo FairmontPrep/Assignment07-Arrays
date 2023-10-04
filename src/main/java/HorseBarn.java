@@ -39,6 +39,20 @@ public class HorseBarn {
      */
     private Horse[] spaces;
 
+    /* CONSTRUCTOR
+     * Do not change this constructor. This constructor is for testing purposes
+     */
+    public HorseBarn(Horse[] stable) {
+        spaces = stable;
+    }
+
+    /* getSpaces
+     * Do not change this method. This method is for testing purposes
+     */
+    public Horse[] getSpaces() {
+        return spaces;
+    }
+
     /* COMPLETE THIS METHOD
      * Returns the index of the space that contains the horse with the 
      * specified name.
@@ -49,8 +63,8 @@ public class HorseBarn {
      */
     public int findHorseSpace(String name) {
         // Insert your code below
-
-
+        
+        
         return 0;
     }
 
@@ -62,6 +76,6 @@ public class HorseBarn {
     public void consolidate() {
         // Insert your code below
 
-
+        
     }
 }

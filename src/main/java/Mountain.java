@@ -9,13 +9,13 @@
  * peak is found the method should return -1.
  * 
  * EXAMPLE CODE:
- *      arr                  getPeakIndex(arr)
- * {11, 22, 33, 22, 11}             2
- * {11, 22, 11, 22, 11}             1
- * {11, 22, 33, 55, 77}            -1
- * {99, 33, 55, 77, 120}           -1
- * {99, 33, 55, 77, 55}             3
- * {33, 22, 11}                    -1
+ *      arr              getPeakIndex(arr)
+ * {1, 2, 3, 2, 1}             2
+ * {1, 2, 1, 2, 1}             1
+ * {1, 2, 3, 5, 7}            -1
+ * {9, 3, 5, 7, 12}           -1
+ * {9, 3, 5, 7, 5}             3
+ * {3, 2, 1}                  -1
  * 
  * For the method 'isMountain' you will return true if the values in the given 
  * array are ordered as a mountain; otherwise, it returns false. An array is 
@@ -81,7 +81,6 @@ public class Mountain {
     public static int getPeakIndex(int[] array) {
         // Insert your code below
 
-
         return 0;
     }
 
@@ -93,7 +92,7 @@ public class Mountain {
      */
     public static boolean isMountain(int[] array) {
         // Insert your code below
-
+        
 
         return false;
     }
